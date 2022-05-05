@@ -1,0 +1,85 @@
+/* main logo blue #1e5071 */
+ /* burnt orange #b55d3a */
+ /* light orange #ea8a64 */
+
+
+.sp-logo-size {
+    max-height: 80px;
+}
+
+.sp-top-margin {
+    margin-top:10px;
+}
+
+.sp-header-padding {
+    padding: 20px 0px 0px 0px;
+}
+
+.sp-nav-bgcolor {
+    background-color: white;
+}
+
+.sp-padding-top {
+    padding-top:15px;
+}
+
+p, h1, h2, h3, h4, h5, body {
+    color: #05111d;
+    font-family: 'Calibri', 'Helvetica' 'Trebuchet MS', sans-serif;
+}
+
+
+.hover:hover {
+    color:#b55d3a;
+}
+
+.sp-padding {
+    padding-top:90px!important;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+ 
+    .sp-top {
+        margin-top:100px!important;
+    }
+
+  }
+
+@media screen and (max-width: 770px) {
+    .sp-top-margin {
+        margin-top:0px;
+    }
+    .sp-logo-size {
+        max-height: 50px;
+    }
+    .sp-header-padding {
+        padding: 20px 0px 0px 0px;
+    }
+    .sp-padding {
+        padding-top:0px!important;
+    }
+    .hide {
+        display: none!important;
+    }
+
+
+  }
+ 
+
+  @media screen and (max-width: 570px) {
+ 
+    .sp-header-padding {
+        padding: 20px 0px 0px 0px;
+    }
+
+  }
+
+  @media screen and (max-width: 454px) {
+
+    .sp-top {
+        margin-top:20px!important;
+    }
+
+  }
